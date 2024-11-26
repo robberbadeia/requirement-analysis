@@ -164,26 +164,23 @@
 
 - ## **Acceptance Criteria:**
 
-  - **Objective:**
-    Establishing clear criteria for feature completion.
+  - **Objective:** Establishing clear criteria for feature completion.
 
     - What is Acceptance Criteria?
       Acceptance criteria are a set of conditions that a software feature or product must meet to be accepted by stakeholders, such as the client or end-users. These criteria define the boundaries of a user story or feature and ensure that all parties involved have a shared understanding of the expected outcome.
 
   - **Example:** Acceptance Criteria for Checkout Feature in a Booking Management System
 
-        - The Checkout Feature should meet the following acceptance criteria:
-          - **Functional Requirements:**
-              - The system must allow users to review their booking details, including dates, times, and costs, on the checkout page.
-              - Users must be able to enter payment details, including card information or select other payment methods (e.g., PayPal).
-              - The system must validate payment information before processing the transaction.
-              - Upon successful payment, users should receive a confirmation email with booking details.
+    - The Checkout Feature should meet the following acceptance criteria:
 
-          - **Non-Functional Requirements:**
-              - The checkout process must not exceed 5 seconds under normal conditions.
-              - All payment transactions must be encrypted using SSL.
-              - The checkout page must be responsive and functional across desktop, tablet, and mobile devices.
+      - **Functional Requirements:** - The system must allow users to review their booking details, including dates, times, and costs, on the checkout page. - Users must be able to enter payment details, including card information or select other payment methods (e.g., PayPal). - The system must validate payment information before processing the transaction. - Upon successful payment, users should receive a confirmation email with booking details.
 
-          - **Error Scenarios:**
-            - If the payment fails, the system must display an error message and allow the user to retry.
-            - If the booking details are invalid (e.g., unavailable slots), the system must notify the user and redirect them to the booking page.
+        - **Non-Functional Requirements:**
+
+          - The checkout process must not exceed 5 seconds under normal conditions.
+          - All payment transactions must be encrypted using SSL.
+          - The checkout page must be responsive and functional across desktop, tablet, and mobile devices.
+
+        - **Error Scenarios:**
+          - If the payment fails, the system must display an error message and allow the user to retry.
+          - If the booking details are invalid (e.g., unavailable slots), the system must notify the user and redirect them to the booking page.
