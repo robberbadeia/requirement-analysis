@@ -36,7 +36,7 @@
 
 - ## **Key Activities in Requirement Analysis.**
 
-  - ### **Requirement Gathering**
+  - ## **Requirement Gathering**
 
         - **Ojective:** Collect initial requirements and insights from stakeholders to understand project needs.
         - **Activities:**
@@ -46,7 +46,7 @@
             - Observe existing workflows and processes to identify gaps and improvement areas.
             - Hold workshops and focus group discussions to clarify needs and encourage collaboration.
 
-  - ### **Requirement Elicitation**
+  - ## **Requirement Elicitation**
 
         - **Ojective:** Elicit detailed and specific requirements from stakeholders to refine the project's scope.
         - **Techniques:**
@@ -55,7 +55,7 @@
             - Storyboarding: Create visual narratives of user interactions.
             - Stakeholder Analysis: Identify key stakeholders and their influence on requirements.
 
-  - ### **Requirement Documentation**
+  - ## **Requirement Documentation**
 
         - **Ojective:** Create clear, concise, and detailed documentation of all requirements.
         - **Activities:**
@@ -64,7 +64,7 @@
             - Use diagrams like flowcharts and data flow diagrams for better visualization.
             - Ensure the documentation is accessible and understandable to all stakeholders.
 
-  - ### **Requirement Analysis and Modeling**
+  - ## **Requirement Analysis and Modeling**
 
         - **Ojective:** Evaluate and organize requirements to ensure they are feasible, consistent, and aligned with project goals.
         - **Activities:**
@@ -75,7 +75,7 @@
                 - Data Flow Diagrams (DFDs): To map workflows and processes.
                 - State Diagrams: To represent system behavior in different states.
 
-  - ### **Requirement Validation.**
+  - ## **Requirement Validation.**
 
         - **Ojective:** Verify that the documented requirements meet stakeholder needs and are feasible to implement.
         - **Activities:**
@@ -86,3 +86,59 @@
             - Obtain formal sign-off from stakeholders on the finalized requirements.
 
 ---
+
+- ## **Types of Requirements.**
+
+  In the context of **Booking Managment Project** requirments are categorized into:
+
+  - **Functional Requirements:**
+    Functional requirements define the specific behavior, functionality, or operations of the system. These are the "what" of the system.
+
+    - **User Registration**
+      Users should able to create an account with personal details, login credential.
+
+    - **User Authenticaton:**
+      Secure login, registration process for users.
+
+    - **Property Listing:**
+      Display Hotels with some details (price, images, ...etc).
+
+    - **Search Functionality:**
+
+      - divided in two categories:
+        - The CDN app: The content will apear like a nearby hotels, recommendations, offers, .... etc
+        - The Users app: Users will able to search for a hotel and Book it.
+
+    - **Book Functionality:**
+      User should able to create, Update, view, Cancel bookings.
+
+    - **Payment Functionality:**
+      The system must process payments securely a payment gateway.
+
+    - **User Notifications:**
+      User should recieve a notification within the app.
+
+  - **Non-Functional Requirements:**
+
+    - **Performance:**
+
+      - A CDN ensures faster loading times by delivering content from servers closest to the user.
+      - Use master-slave architecture to reduce the load in the database.
+
+    - **Scalability:**
+
+      - CDNs handle high traffic by distributing the load across multiple servers.
+      - The system should be able to scale horizontally to handle increased traffic.
+
+    - **Security:**
+
+      - CDNs protect against DDoS attacks and improve secure delivery of content.
+      - Ensure data encryption, secure login, and protect against common vulnerabilities.
+
+    - **Usability:**
+
+      The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
+
+    - **Reliability:**
+
+      The system should have an uptime of 99.9% and recover quickly from any failures.
