@@ -142,3 +142,21 @@
     - **Reliability:**
 
       The system should have an uptime of 99.9% and recover quickly from any failures.
+
+---
+
+- ## **Use Case Diagrams.**
+
+  - **Objective:**
+    A Use Case Diagram is a visual representation of the interactions between actors (users or systems) and the system itself.
+
+  - **Benefits of Use Case Diagrams:**
+
+    - Provide a clear visual representation of system functionalities.
+    - Help in identifying and organizing system requirements.
+    - Facilitate communication among stakeholders and development team.
+
+  - **Here are an example of a Use Case Diagram**
+    ![Use Case Diagram for Booking Management System](images/alx-booking-uc.png)
+
+---
